@@ -4,12 +4,10 @@
 		<title>Example for munkres-js</title>
 		<script src="munkres.js" type="text/javascript"></script>
 		<script type="text/javascript">/*<![CDATA[*/
-			const resources = ['Alice', 'Bob', 'Charlie', 'Danielle', 'Eric', 'Francis'],
-				rrs = ['rr1', 'rr2', 'rr3', 'rr4', 'rr5', 'rr6'];
+			const resources = ['Alice', 'Bob', 'Charlie', 'Danielle', 'Eric', 'Francis'];
 
 			document.addEventListener('DOMContentLoaded', function() {
 				// set up table
-				/*
 				const table = document.getElementById('example-table'),
 					N = resources.length;
 
@@ -28,28 +26,27 @@
 
 					table.appendChild(tr);
 				}
-				*/
 
-				resources.forEach((resource, idx) => {
+				resources.forEach(resource => {
 					const table = document.getElementById('resource-table'),
-						tr = document.createElement('tr'),
-						td = document.createElement('td');
+						tr = document.createElement('tr');
 
-						td.innerText = resource;
-						tr.appendChild(td);
+						var th = document.createElement('th');
+							th.setValue(resource);
+							tr.appendChild(td);
 
-						rrs.forEach((rr, rrIdx) => {
-							const td = document.createElement('td');
-							const input = document.createElement('input');
 
-							td.setAttribute('id', 'tab-' + rrIdx + '-' + idx);
+						for (var j = 0; j < N; ++j) {
+							var td = document.createElement('td');
+							td.setAttribute('id', 'tab-' + i + '-' + j);
+							var input = document.createElement('input');
 							input.setAttribute('type', 'text');
 							input.addEventListener('change', update);
 							td.appendChild(input);
 							tr.appendChild(td);
-						});
+						}
 
-						table.appendChild(tr);
+
 				});
 
 				update();
@@ -64,7 +61,8 @@
 						matrix[i][j] = parseInt(document.getElementById('tab-' + i + '-' + j).children[0].value) || 0;
 				}
 
-				var indices = new Munkres().compute(matrix);
+				var m = new Munkres();
+				var indices = m.compute(matrix);
 
 				var totalCost = 0;
 				for (var i = 0; i < N; ++i)

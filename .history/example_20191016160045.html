@@ -32,17 +32,16 @@
 
 				resources.forEach((resource, idx) => {
 					const table = document.getElementById('resource-table'),
-						tr = document.createElement('tr'),
-						td = document.createElement('td');
+						tr = document.createElement('tr');
 
+						var td = document.createElement('td');
 						td.innerText = resource;
 						tr.appendChild(td);
 
 						rrs.forEach((rr, rrIdx) => {
 							const td = document.createElement('td');
-							const input = document.createElement('input');
 
-							td.setAttribute('id', 'tab-' + rrIdx + '-' + idx);
+							const input = document.createElement('input');
 							input.setAttribute('type', 'text');
 							input.addEventListener('change', update);
 							td.appendChild(input);

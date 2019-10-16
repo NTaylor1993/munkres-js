@@ -5,7 +5,7 @@
 		<script src="munkres.js" type="text/javascript"></script>
 		<script type="text/javascript">/*<![CDATA[*/
 			const resources = ['Alice', 'Bob', 'Charlie', 'Danielle', 'Eric', 'Francis'],
-				rrs = ['rr1', 'rr2', 'rr3', 'rr4', 'rr5', 'rr6'];
+				rrs = ['rr1', 'rr2', 'rr3'];
 
 			document.addEventListener('DOMContentLoaded', function() {
 				// set up table
@@ -32,24 +32,30 @@
 
 				resources.forEach((resource, idx) => {
 					const table = document.getElementById('resource-table'),
-						tr = document.createElement('tr'),
-						td = document.createElement('td');
+						tr = document.createElement('tr');
 
+						var td = document.createElement('td');
 						td.innerText = resource;
 						tr.appendChild(td);
 
-						rrs.forEach((rr, rrIdx) => {
-							const td = document.createElement('td');
-							const input = document.createElement('input');
+						rrs.forEach(rr);
 
-							td.setAttribute('id', 'tab-' + rrIdx + '-' + idx);
+
+
+						for (var rr = 0; j < rrs.length; ++j) {
+							var td = document.createElement('td');
+							td.setAttribute('id', 'tab-' + i + '-' + j);
+							var input = document.createElement('input');
 							input.setAttribute('type', 'text');
 							input.addEventListener('change', update);
 							td.appendChild(input);
 							tr.appendChild(td);
-						});
+						}
+
 
 						table.appendChild(tr);
+
+
 				});
 
 				update();
