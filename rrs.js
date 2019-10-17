@@ -235,7 +235,7 @@
 	}
 
 	function outputIndicesList(indices) {
-		assignmentList = docuement.createElement('ul');
+		assignmentList = document.createElement('ul');
 		
 		indices.forEach(index => {
 			listItem = document.createElement('li');
