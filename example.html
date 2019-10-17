@@ -19,7 +19,7 @@
 							},
 							{
 								rrId: 'rr3',
-								weight: -15
+								weight: -5
 							}
 						]
 					},
@@ -29,7 +29,7 @@
 						rrs: [
 							{
 								rrId: 'rr1',
-								weight: -10
+								weight: -11
 							},
 							{
 								rrId: 'rr2',
@@ -37,7 +37,7 @@
 							},
 							{
 								rrId: 'rr3',
-								weight: -15
+								weight: -5
 							}
 						]
 					},
@@ -55,7 +55,7 @@
 							},
 							{
 								rrId: 'rr3',
-								weight: -25
+								weight: -5
 							}
 						]
 					},
@@ -65,7 +65,7 @@
 						rrs: [
 							{
 								rrId: 'rr1',
-								weight: 0
+								weight: -5
 							},
 							{
 								rrId: 'rr2',
@@ -73,7 +73,7 @@
 							},
 							{
 								rrId: 'rr3',
-								weight: 0
+								weight: -5
 							}
 						]
 					}
@@ -82,11 +82,39 @@
 			document.addEventListener('DOMContentLoaded', function() {
 				const table = document.getElementById('resource-table');
 
+				filterByThreshold();
 				makeSquare();
+
 				createResourceRequestRow(table);
-				createResourceRows(table)
+				createResourceRows(table);
 				update();
 			});
+
+			function filterByThreshold() {
+				const threshold = -10,
+					numberOfRRs = getResourceRequests().length;
+
+				for (let i=0; i<numberOfRRs; i++) {
+					let maxWeight = 0;
+					data.forEach(resource => {
+						const weight = resource.rrs[i].weight;
+						if (weight < maxWeight) {
+							maxWeight = weight;
+						}
+					});
+
+					if (maxWeight > threshold) {
+						removeResourceRequest(i);
+					}
+				}
+			}
+
+			function removeResourceRequest(idx) {
+				console.log("Remove rr", idx);
+				getResources().forEach(resource => {
+					resource.rrs.splice(idx, 1);
+				});
+			}
 
 			function makeSquare() {
 				let numberOfResources = getResources().length,
@@ -99,8 +127,6 @@
 				for (;numberOfResources > numberOfRRs; numberOfRRs++) {
 					createDummyRR();
 				}
-
-				// TODO algorithm requires a square matrix, so add dummy rows/columns
 			}
 
 			function createDummyResource() {
@@ -227,7 +253,6 @@
 	</head>
 	<body>
 		<h1>Resource Allocation Using Hungarian Method</h1>
-		</table>
 		<p>
 			Total Cost: <input disabled id="total-cost" />
 		</p>
