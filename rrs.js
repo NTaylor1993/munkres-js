@@ -1,6 +1,7 @@
 (async function() {
   const threshold = -10,
   	//jsonFile = "rrs_50x20.json";
+	//jsonFile = "rrs_5.json";
 	  jsonFile = "rrs.json";
 
   document.addEventListener("DOMContentLoaded", function() {
@@ -12,6 +13,7 @@
 		data = json;
         preFilterByThreshold();
         buildTable("resource-table");
+		update();
       });
   });
 
@@ -31,11 +33,11 @@
       table.removeChild(table.firstChild);
     }
 
-    makeSquare();
+	makeSquare();
     createResourceRequestRow(table);
     createResourceRows(table);
-    update();
-  }
+}
+
 
   function preFilterByThreshold() {
     const threshold = -10,
@@ -57,7 +59,6 @@
   }
 
   function postFilterByThreshold(matrix, indices) {
-    console.log("here");
     for (let i = 0; i <= data[0].rrs.length - 1; i++) {
       if (
         matrix[indices[i][0]][indices[i][1]] > threshold &&
@@ -70,7 +71,11 @@
           resource.rrs.splice(indices[i][0], 1);
 		});
 		buildTable();
+		update();
       }
+	  else {
+		  buildTable();
+	  }
 	}
 
 
