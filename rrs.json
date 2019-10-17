@@ -5,7 +5,7 @@
     "rrs": [
       {
         "rrId": "rr1",
-        "weight": -50
+        "weight": -51
       },
       {
         "rrId": "rr2",
@@ -13,7 +13,7 @@
       },
       {
         "rrId": "rr3",
-        "weight": -5
+        "weight": -9
       }
     ]
   },
@@ -31,7 +31,7 @@
       },
       {
         "rrId": "rr3",
-        "weight": -5
+        "weight": -9
       }
     ]
   },
@@ -49,7 +49,7 @@
       },
       {
         "rrId": "rr3",
-        "weight": -5
+        "weight": -10
       }
     ]
   },
@@ -59,7 +59,7 @@
     "rrs": [
       {
         "rrId": "rr1",
-        "weight": -5
+        "weight": -20
       },
       {
         "rrId": "rr2",
@@ -67,7 +67,61 @@
       },
       {
         "rrId": "rr3",
-        "weight": -5
+        "weight": -9
+      }
+    ]
+  },
+  {
+    "id": "resource-20",
+    "name": "Daniell",
+    "rrs": [
+      {
+        "rrId": "rr1",
+        "weight": -20
+      },
+      {
+        "rrId": "rr2",
+        "weight": 0
+      },
+      {
+        "rrId": "rr3",
+        "weight": -9
+      }
+    ]
+  },
+  {
+    "id": "resource-6",
+    "name": "Daniel",
+    "rrs": [
+      {
+        "rrId": "rr1",
+        "weight": -20
+      },
+      {
+        "rrId": "rr2",
+        "weight": 0
+      },
+      {
+        "rrId": "rr3",
+        "weight": -9
+      }
+    ]
+  },
+  {
+    "id": "resource-7",
+    "name": "Danie",
+    "rrs": [
+      {
+        "rrId": "rr1",
+        "weight": -50
+      },
+      {
+        "rrId": "rr2",
+        "weight": 0
+      },
+      {
+        "rrId": "rr3",
+        "weight": -9
       }
     ]
   }

@@ -1,5 +1,6 @@
 (async function() {
-	const threshold = -10;
+
+const threshold = -10;
 
 document.addEventListener("DOMContentLoaded", function() {
   fetch(new Request('rrs.json')).then((response) => {
@@ -37,6 +38,7 @@ function preFilterByThreshold() {
 }
 
 function postFilterByThreshold(matrix, indices) {
+	console.log('here');
 	for (let i=0; i <= data[0].rrs.length - 1; i++) {
 		if (matrix[indices[i][0]][indices[i][1]] > threshold && data[0].rrs[i].rrId != 'Dummy') {
 			console.log(data[0].rrs);
@@ -145,9 +147,11 @@ function getMatrix() {
 }
 
 function update() {
-  const matrix = getMatrix();
+	const matrix = getMatrix();
+	const indices = solve(matrix);
 
-  highlightSolution(matrix, solve(matrix));
+	postFilterByThreshold(matrix, indices)
+	highlightSolution(matrix, indices);
 }
 
 function highlightSolution(matrix, indices) {
