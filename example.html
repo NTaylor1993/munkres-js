@@ -82,7 +82,7 @@
 			document.addEventListener('DOMContentLoaded', function() {
 				const table = document.getElementById('resource-table');
 
-				filterByThreshold();
+				preFilterByThreshold();
 				makeSquare();
 
 				createResourceRequestRow(table);
@@ -90,7 +90,7 @@
 				update();
 			});
 
-			function filterByThreshold() {
+			function preFilterByThreshold() {
 				const threshold = -10,
 					numberOfRRs = getResourceRequests().length;
 

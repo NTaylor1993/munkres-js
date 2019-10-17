@@ -21,6 +21,17 @@ used more than once.
 
 [Hungarian algorithm]: https://en.wikipedia.org/wiki/Hungarian_algorithm
 
+## Loading the Example
+The example uses the fetch API to load json, so we must serve our html through a web server.
+
+The package.json can be used to install `http-server` for this purpose:
+```
+npm install
+npm run start-server
+```
+
+Navigate to http://localhost:8080/index.html
+
 ## Usage
 
 ```js
