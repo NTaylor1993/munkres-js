@@ -4,42 +4,87 @@
 		<title>Resource Request Allocation</title>
 		<script src="munkres.js" type="text/javascript"></script>
 		<script type="text/javascript">/*<![CDATA[*/
-			const resources = ['Alice', 'Bob', 'Charlie', 'Danielle', 'Eric', 'Francis'],
-				rrs = ['rr1', 'rr2', 'rr3', 'rr4', 'rr5', 'rr6'];
+			const
+			//resources = ['Alice', 'Bob', 'Charlie', 'Danielle', 'Eric', 'Francis', 'Dummy'],
+			//	rrs = ['rr1', 'rr2', 'rr3', 'rr4', 'rr5', 'rr6', 'dummy'],
+
+				data = [
+					{
+						id: 'resource-1',
+						name: 'Alice',
+						rrs: [
+							{
+								rrId: 'rr1',
+								weight: 0
+							},
+							{
+								rrId: 'rr2',
+								weight: 0
+							}
+						]
+					},
+					{
+						id: 'resource-2',
+						name: 'Bob',
+						rrs: [
+							{
+								rrId: 'rr1',
+								weight: 0
+							},
+							{
+								rrId: 'rr2',
+								weight: 0
+							}
+						]
+					}
+				];
 
 			document.addEventListener('DOMContentLoaded', function() {
-				// set up table
-				/*
-				const table = document.getElementById('example-table'),
-					N = resources.length;
-
-				for (var i = 0; i < N; ++i) {
-					var tr = document.createElement('tr');
-
-					for (var j = 0; j < N; ++j) {
-						var td = document.createElement('td');
-						td.setAttribute('id', 'tab-' + i + '-' + j);
-						var input = document.createElement('input');
-						input.setAttribute('type', 'text');
-						input.addEventListener('change', update);
-						td.appendChild(input);
-						tr.appendChild(td);
-					}
-
-					table.appendChild(tr);
-				}
-				*/
-
 				const table = document.getElementById('resource-table');
 
-				resources.forEach((resource, idx) => {
+				makeSquare();
+				createResourceRequestRow(table);
+				createResourceRows(table)
+				update();
+			});
+
+			function makeSquare() {
+				// TODO algorithm requires a square matrix, so add dummy rows/columns
+			}
+
+			function createResourceRequestRow(table) {
+				const tr = document.createElement('tr'),
+					td = document.createElement('td');
+
+					tr.appendChild(td);
+
+					getResourceRequests().forEach(rr => {
+						const td = document.createElement('td');
+
+						td.innerText = rr.rrId;
+						tr.appendChild(td);
+					});
+
+					table.appendChild(tr);
+			}
+
+			function getResourceRequests() {
+				return data[0].rrs;
+			}
+
+			function getResources() {
+				return data;
+			}
+
+			function createResourceRows(table) {
+				getResources().forEach((resource, idx) => {
 					const tr = document.createElement('tr'),
 						td = document.createElement('td');
 
-					td.innerText = resource;
+					td.innerText = resource.name;
 					tr.appendChild(td);
 
-					rrs.forEach((rr, rrIdx) => {
+					getResourceRequests().forEach((rr, rrIdx) => {
 						const td = document.createElement('td');
 						const input = document.createElement('input');
 
@@ -52,17 +97,16 @@
 
 					table.appendChild(tr);
 				});
-
-				update();
-			});
+			}
 
 			function getMatrix() {
-				var matrix = [], N = resources.length;
+				var matrix = [], N = getResources().length;
 
 				for (var i = 0; i < N; ++i) {
 					matrix[i] = [];
-					for (var j = 0; j < N; ++j)
+					for (var j = 0; j < N; ++j) {
 						matrix[i][j] = parseInt(document.getElementById('tab-' + i + '-' + j).children[0].value) || 0;
+					}
 				}
 
 				return matrix;
@@ -73,8 +117,6 @@
 
 				highlightSolution(matrix, solve(matrix));
 			}
-
-
 
 			function highlightSolution(matrix, indices) {
 				let totalCost = 0;
@@ -91,7 +133,7 @@
 			}
 
 			function removeClass() {
-				const N = resources.length;
+				const N = getResources().length;
 
 				for (var i = 0; i < N; ++i) {
 					for (var j = 0; j < N; ++j) {
@@ -123,7 +165,6 @@
 	</head>
 	<body>
 		<h1>Resource Allocation Using Hungarian Method</h1>
-		<table id="example-table">
 		</table>
 		<p>
 			Total Cost: <input disabled id="total-cost" />
