@@ -1,7 +1,7 @@
 (async function () {
 	const threshold = -10,
 		// jsonFile = "rrs.json";
-	  	jsonFile = "rrs_50x20.json";
+	  	jsonFile = "rrs_5.json";
 
 	let currentTableId;
 
@@ -237,13 +237,16 @@
 		assignmentList = document.createElement('ul');
 
 		indices.forEach(index => {
-			if (data[index[0]].name !== 'Dummy' && data[index[0]].rrs[index[1]].rrId !== 'Dummy') {
+			let resourceName = data[index[1]].name;
+			let resourceRequestId = data[index[1]].rrs[index[0]].rrId;
+
+			if (resourceName !== 'Dummy' && resourceRequestId !== 'Dummy') {
 				listItem = document.createElement('li');
 				listItem.value = 200;
 				// listItem.value = index[0] + " - " + index[1];
 
 				valueItem = document.createElement('input');
-				valueItem.value = data[index[0]].name + " - " + data[index[0]].rrs[index[1]].rrId;
+				valueItem.value = resourceName + " - " + resourceRequestId;
 
 				listItem.appendChild(valueItem);
 				assignmentList.appendChild(listItem);
