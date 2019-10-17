@@ -1,221 +1,218 @@
-(async function() {
-  const threshold = -10,
-  	//jsonFile = "rrs_50x20.json";
-	  jsonFile = "rrs.json";
+(async function () {
+	const threshold = -10,
+		jsonFile = "rrs.json";
+	//   jsonFile = "rrs_1000_300.json";
 
-  document.addEventListener("DOMContentLoaded", function() {
-    fetch(new Request(jsonFile))
-      .then(response => {
-        return response.json();
-      })
-      .then(json => {
-		data = json;
-        preFilterByThreshold();
-        buildTable("resource-table");
-      });
-  });
+	document.addEventListener("DOMContentLoaded", function () {
+		fetch(new Request(jsonFile))
+			.then(response => {
+				return response.json();
+			})
+			.then(json => {
+				data = json;
+				buildTable("pre-filter");
+				preFilterByThreshold();
+				buildTable("resource-table");
+			});
+	});
 
-  function buildTable(id) {
-	let table = document.getElementById(id);
+	function buildTable(id) {
+		let table = document.getElementById(id);
 
-	if (!table) {
-		const container = document.getElementById('table-data');
+		if (!table) {
+			const container = document.getElementById('table-data');
 
-		table = document.createElement('table');
-		table.setAttribute('id', id);
+			table = document.createElement('table');
+			table.setAttribute('id', id);
 
-		container.appendChild(table);
+			container.appendChild(table);
+		}
+
+		while (table.firstChild) {
+			table.removeChild(table.firstChild);
+		}
+
+		makeSquare();
+		createResourceRequestRow(table);
+		createResourceRows(table);
+		update();
 	}
 
-    while (table.firstChild) {
-      table.removeChild(table.firstChild);
-    }
+	function preFilterByThreshold() {
+		const threshold = -10,
+			numberOfRRs = getResourceRequests().length;
 
-    makeSquare();
-    createResourceRequestRow(table);
-    createResourceRows(table);
-    update();
-  }
+		for (let i = 0; i < numberOfRRs; i++) {
+			let maxWeight = 0;
+			data.forEach(resource => {
+				const weight = resource.rrs[i].weight;
+				if (weight < maxWeight) {
+					maxWeight = weight;
+				}
+			});
 
-  function preFilterByThreshold() {
-    const threshold = -10,
-      numberOfRRs = getResourceRequests().length;
+			if (maxWeight > threshold && data[0].rrs[i].rrId != "Dummy") {
+				removeResourceRequest(i);
+			}
+		}
+	}
 
-    for (let i = 0; i < numberOfRRs; i++) {
-      let maxWeight = 0;
-      data.forEach(resource => {
-        const weight = resource.rrs[i].weight;
-        if (weight < maxWeight) {
-          maxWeight = weight;
-        }
-      });
+	function postFilterByThreshold(matrix, indices) {
+		for (let i = 0; i <= data[0].rrs.length - 1; i++) {
+			if (
+				matrix[indices[i][0]][indices[i][1]] > threshold &&
+				data[0].rrs[i].rrId != "Dummy"
+			) {
+				data.forEach(resource => {
+					resource.rrs.splice(indices[i][0], 1);
+				});
+				buildTable("post-filter-table");
+			}
+		}
 
-      if (maxWeight > threshold) {
-        removeResourceRequest(i);
-      }
-    }
-  }
 
-  function postFilterByThreshold(matrix, indices) {
-    console.log("here");
-    for (let i = 0; i <= data[0].rrs.length - 1; i++) {
-      if (
-        matrix[indices[i][0]][indices[i][1]] > threshold &&
-        data[0].rrs[i].rrId != "Dummy"
-      ) {
-        console.log(data[0].rrs);
-        console.log(indices[i]);
-        console.log(i);
-        data.forEach(resource => {
-          resource.rrs.splice(indices[i][0], 1);
+	}
+
+	function removeResourceRequest(idx) {
+		getResources().forEach(resource => {
+			resource.rrs.splice(idx, 1);
 		});
-		buildTable();
-      }
 	}
 
+	function makeSquare() {
+		let numberOfResources = getResources().length,
+			numberOfRRs = getResourceRequests().length;
 
-  }
+		for (; numberOfResources < numberOfRRs; numberOfResources++) {
+			createDummyResource();
+		}
 
-  function removeResourceRequest(idx) {
-    console.log("Remove rr", idx);
-    getResources().forEach(resource => {
-      resource.rrs.splice(idx, 1);
-    });
-  }
+		for (; numberOfResources > numberOfRRs; numberOfRRs++) {
+			createDummyRR();
+		}
+	}
 
-  function makeSquare() {
-    let numberOfResources = getResources().length,
-      numberOfRRs = getResourceRequests().length;
+	function createDummyResource() {
+		data.push({ name: "Dummy" });
+	}
 
-    for (; numberOfResources < numberOfRRs; numberOfResources++) {
-      createDummyResource();
-    }
+	function createDummyRR() {
+		data.forEach(resource => {
+			resource.rrs.push({ rrId: "Dummy", weight: 0 });
+		});
+	}
 
-    for (; numberOfResources > numberOfRRs; numberOfRRs++) {
-      createDummyRR();
-    }
-  }
+	function createResourceRequestRow(table) {
+		const tr = document.createElement("tr"),
+			td = document.createElement("td");
 
-  function createDummyResource() {
-    data.push({ name: "Dummy" });
-  }
+		tr.appendChild(td);
 
-  function createDummyRR() {
-    data.forEach(resource => {
-      resource.rrs.push({ rrId: "Dummy", weight: 0 });
-    });
-  }
+		getResourceRequests().forEach(rr => {
+			const td = document.createElement("td");
 
-  function createResourceRequestRow(table) {
-    const tr = document.createElement("tr"),
-      td = document.createElement("td");
+			td.innerText = rr.rrId;
+			tr.appendChild(td);
+		});
 
-    tr.appendChild(td);
+		table.appendChild(tr);
+	}
 
-    getResourceRequests().forEach(rr => {
-      const td = document.createElement("td");
+	function getResourceRequests() {
+		return data[0].rrs;
+	}
 
-      td.innerText = rr.rrId;
-      tr.appendChild(td);
-    });
+	function getResources() {
+		return data;
+	}
 
-    table.appendChild(tr);
-  }
+	function createResourceRows(table) {
+		getResources().forEach((resource, idx) => {
+			const tr = document.createElement("tr"),
+				td = document.createElement("td");
 
-  function getResourceRequests() {
-    return data[0].rrs;
-  }
+			td.innerText = resource.name;
+			tr.appendChild(td);
 
-  function getResources() {
-    return data;
-  }
+			resource.rrs.forEach((rr, rrIdx) => {
+				const td = document.createElement("td");
+				const input = document.createElement("input");
 
-  function createResourceRows(table) {
-    getResources().forEach((resource, idx) => {
-      const tr = document.createElement("tr"),
-        td = document.createElement("td");
+				td.setAttribute("id", "tab-" + rrIdx + "-" + idx);
 
-      td.innerText = resource.name;
-      tr.appendChild(td);
+				td.setAttribute("matrix-id", "tab-" + rrIdx + "-" + idx);
 
-      resource.rrs.forEach((rr, rrIdx) => {
-        const td = document.createElement("td");
-        const input = document.createElement("input");
+				input.setAttribute("type", "text");
+				input.setAttribute("class", 'test');
+				input.addEventListener("change", update);
+				input.value = rr.weight;
+				td.appendChild(input);
+				tr.appendChild(td);
+			});
 
-		td.setAttribute("id", "tab-" + rrIdx + "-" + idx);
+			table.appendChild(tr);
+		});
+	}
 
-		td.setAttribute("matrix-id", "tab-" + rrIdx + "-" + idx);
+	function getMatrix() {
+		var matrix = [],
+			N = getResources().length;
 
-        input.setAttribute("type", "text");
-        input.addEventListener("change", update);
-        input.value = rr.weight;
-        td.appendChild(input);
-        tr.appendChild(td);
-      });
+		for (var i = 0; i < N; ++i) {
+			matrix[i] = [];
+			for (var j = 0; j < N; ++j) {
+				matrix[i][j] =
+					parseInt(
+						document.getElementById("tab-" + i + "-" + j).children[0].value
+					) || 0;
+			}
+		}
 
-      table.appendChild(tr);
-    });
-  }
+		return matrix;
+	}
 
-  function getMatrix() {
-    var matrix = [],
-      N = getResources().length;
+	function update() {
+		const matrix = getMatrix();
+		const indices = solve(matrix);
 
-    for (var i = 0; i < N; ++i) {
-      matrix[i] = [];
-      for (var j = 0; j < N; ++j) {
-        matrix[i][j] =
-          parseInt(
-            document.getElementById("tab-" + i + "-" + j).children[0].value
-          ) || 0;
-      }
-    }
+		postFilterByThreshold(matrix, indices);
+		highlightSolution(matrix, indices);
+	}
 
-    return matrix;
-  }
+	function highlightSolution(matrix, indices) {
+		let totalCost = 0;
 
-  function update() {
-    const matrix = getMatrix();
-    const indices = solve(matrix);
+		removeClass();
+		for (var k = 0; k < indices.length; ++k) {
+			var i = indices[k][0],
+				j = indices[k][1];
+			totalCost += matrix[i][j];
+			document.getElementById("tab-" + i + "-" + j).className = "active";
+		}
 
-    postFilterByThreshold(matrix, indices);
-    highlightSolution(matrix, indices);
-  }
+		document.getElementById("total-cost").value = totalCost;
+		document.getElementById("indices").value = formatIndicesAsString(indices);
+	}
 
-  function highlightSolution(matrix, indices) {
-    let totalCost = 0;
+	function removeClass() {
+		const N = getResources().length;
 
-    removeClass();
-    for (var k = 0; k < indices.length; ++k) {
-      var i = indices[k][0],
-        j = indices[k][1];
-      totalCost += matrix[i][j];
-      document.getElementById("tab-" + i + "-" + j).className = "active";
-    }
+		for (var i = 0; i < N; ++i) {
+			for (var j = 0; j < N; ++j) {
+				document.getElementById("tab-" + i + "-" + j).className = "";
+			}
+		}
+	}
 
-    document.getElementById("total-cost").value = totalCost;
-    document.getElementById("indices").value = formatIndicesAsString(indices);
-  }
+	function solve(matrix) {
+		return new Munkres().compute(matrix);
+	}
 
-  function removeClass() {
-    const N = getResources().length;
-
-    for (var i = 0; i < N; ++i) {
-      for (var j = 0; j < N; ++j) {
-        document.getElementById("tab-" + i + "-" + j).className = "";
-      }
-    }
-  }
-
-  function solve(matrix) {
-    return new Munkres().compute(matrix);
-  }
-
-  function formatIndicesAsString(indices) {
-    return indices
-      .map(ind => {
-        return ["[", ind.join(","), "]"].join("");
-      })
-      .join(", ");
-  }
+	function formatIndicesAsString(indices) {
+		return indices
+			.map(ind => {
+				return ["[", ind.join(","), "]"].join("");
+			})
+			.join(", ");
+	}
 })();
