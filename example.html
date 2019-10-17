@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Example for munkres-js</title>
+		<title>Resource Request Allocation</title>
 		<script src="munkres.js" type="text/javascript"></script>
 		<script type="text/javascript">/*<![CDATA[*/
 			const resources = ['Alice', 'Bob', 'Charlie', 'Danielle', 'Eric', 'Francis'],
@@ -30,32 +30,33 @@
 				}
 				*/
 
+				const table = document.getElementById('resource-table');
+
 				resources.forEach((resource, idx) => {
-					const table = document.getElementById('resource-table'),
-						tr = document.createElement('tr'),
+					const tr = document.createElement('tr'),
 						td = document.createElement('td');
 
-						td.innerText = resource;
+					td.innerText = resource;
+					tr.appendChild(td);
+
+					rrs.forEach((rr, rrIdx) => {
+						const td = document.createElement('td');
+						const input = document.createElement('input');
+
+						td.setAttribute('id', 'tab-' + rrIdx + '-' + idx);
+						input.setAttribute('type', 'text');
+						input.addEventListener('change', update);
+						td.appendChild(input);
 						tr.appendChild(td);
+					});
 
-						rrs.forEach((rr, rrIdx) => {
-							const td = document.createElement('td');
-							const input = document.createElement('input');
-
-							td.setAttribute('id', 'tab-' + rrIdx + '-' + idx);
-							input.setAttribute('type', 'text');
-							input.addEventListener('change', update);
-							td.appendChild(input);
-							tr.appendChild(td);
-						});
-
-						table.appendChild(tr);
+					table.appendChild(tr);
 				});
 
 				update();
 			});
 
-			function update() {
+			function getMatrix() {
 				var matrix = [], N = resources.length;
 
 				for (var i = 0; i < N; ++i) {
@@ -64,13 +65,21 @@
 						matrix[i][j] = parseInt(document.getElementById('tab-' + i + '-' + j).children[0].value) || 0;
 				}
 
-				var indices = new Munkres().compute(matrix);
+				return matrix;
+			}
 
-				var totalCost = 0;
-				for (var i = 0; i < N; ++i)
-					for (var j = 0; j < N; ++j)
-						document.getElementById('tab-' + i + '-' + j).className = '';
+			function update() {
+				const matrix = getMatrix();
 
+				highlightSolution(matrix, solve(matrix));
+			}
+
+
+
+			function highlightSolution(matrix, indices) {
+				let totalCost = 0;
+
+				removeClass();
 				for (var k = 0; k < indices.length; ++k) {
 					var i = indices[k][0], j = indices[k][1];
 					totalCost += matrix[i][j];
@@ -78,10 +87,29 @@
 				}
 
 				document.getElementById('total-cost').value = totalCost;
-				document.getElementById('indices').value = indices.map(function (ind) {
+				document.getElementById('indices').value = formatIndicesAsString(indices);
+			}
+
+			function removeClass() {
+				const N = resources.length;
+
+				for (var i = 0; i < N; ++i) {
+					for (var j = 0; j < N; ++j) {
+						document.getElementById('tab-' + i + '-' + j).className = '';
+					}
+				}
+			}
+
+			function solve(matrix) {
+				return new Munkres().compute(matrix);
+			}
+
+			function formatIndicesAsString(indices) {
+				return indices.map(ind => {
 					return [ '[', ind.join(','), ']' ].join('');
 				}).join(', ');
 			}
+
 		/*]]>*/</script>
 
 		<style>/*<![CDATA[*/
@@ -94,7 +122,7 @@
 		/*]]>*/</style>
 	</head>
 	<body>
-		<h1>Example usage of <code>munkres-js</code></h1>
+		<h1>Resource Allocation Using Hungarian Method</h1>
 		<table id="example-table">
 		</table>
 		<p>
