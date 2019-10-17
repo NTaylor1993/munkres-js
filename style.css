@@ -1,0 +1,10 @@
+.active {
+    background-color: #e77;
+}
+#indices {
+    min-width:15em;
+}
+
+table {
+    margin: 25px;
+}

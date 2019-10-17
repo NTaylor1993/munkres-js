@@ -1,13 +1,15 @@
 (async function() {
-  const threshold = -10;
+  const threshold = -10,
+  	//jsonFile = "rrs_50x20.json";
+	  jsonFile = "rrs.json";
 
   document.addEventListener("DOMContentLoaded", function() {
-    fetch(new Request("rrs.json"))
+    fetch(new Request(jsonFile))
       .then(response => {
         return response.json();
       })
       .then(json => {
-        data = json;
+		data = json;
         preFilterByThreshold();
         buildTable("resource-table");
       });
@@ -140,7 +142,10 @@
         const td = document.createElement("td");
         const input = document.createElement("input");
 
-        td.setAttribute("id", "tab-" + rrIdx + "-" + idx);
+		td.setAttribute("id", "tab-" + rrIdx + "-" + idx);
+
+		td.setAttribute("matrix-id", "tab-" + rrIdx + "-" + idx);
+
         input.setAttribute("type", "text");
         input.addEventListener("change", update);
         input.value = rr.weight;

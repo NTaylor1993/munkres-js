@@ -1,0 +1,132 @@
+[
+    {
+      "id": "resource-01",
+      "name": "Katharine",
+      "rrs": [
+        {
+          "rrId": "rr-01",
+          "weight": -18
+        },
+        {
+          "rrId": "rr-11",
+          "weight": -53
+        },
+        {
+          "rrId": "rr-21",
+          "weight": -15
+        },
+        {
+          "rrId": "rr-31",
+          "weight": -82
+        },
+        {
+          "rrId": "rr-41",
+          "weight": -38
+        }
+      ]
+    },
+    {
+      "id": "resource-11",
+      "name": "Clarice",
+      "rrs": [
+        {
+          "rrId": "rr-01",
+          "weight": -93
+        },
+        {
+          "rrId": "rr-11",
+          "weight": -35
+        },
+        {
+          "rrId": "rr-21",
+          "weight": -19
+        },
+        {
+          "rrId": "rr-31",
+          "weight": -28
+        },
+        {
+          "rrId": "rr-41",
+          "weight": -86
+        }
+      ]
+    },
+    {
+      "id": "resource-21",
+      "name": "Imelda",
+      "rrs": [
+        {
+          "rrId": "rr-01",
+          "weight": -21
+        },
+        {
+          "rrId": "rr-11",
+          "weight": -73
+        },
+        {
+          "rrId": "rr-21",
+          "weight": -28
+        },
+        {
+          "rrId": "rr-31",
+          "weight": -60
+        },
+        {
+          "rrId": "rr-41",
+          "weight": -82
+        }
+      ]
+    },
+    {
+      "id": "resource-31",
+      "name": "Marisa",
+      "rrs": [
+        {
+          "rrId": "rr-01",
+          "weight": -51
+        },
+        {
+          "rrId": "rr-11",
+          "weight": -73
+        },
+        {
+          "rrId": "rr-21",
+          "weight": -49
+        },
+        {
+          "rrId": "rr-31",
+          "weight": -83
+        },
+        {
+          "rrId": "rr-41",
+          "weight": -40
+        }
+      ]
+    },
+    {
+      "id": "resource-41",
+      "name": "Caroline",
+      "rrs": [
+        {
+          "rrId": "rr-01",
+          "weight": -69
+        },
+        {
+          "rrId": "rr-11",
+          "weight": -32
+        },
+        {
+          "rrId": "rr-21",
+          "weight": -64
+        },
+        {
+          "rrId": "rr-31",
+          "weight": -52
+        },
+        {
+          "rrId": "rr-41",
+          "weight": -69
+        }
+      ]
+    }
+  ]

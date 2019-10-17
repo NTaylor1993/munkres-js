@@ -1,0 +1,10302 @@
+[
+  {
+    "id": "resource-01",
+    "name": "Sabrina",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -18
+      }
+    ]
+  },
+  {
+    "id": "resource-11",
+    "name": "Le",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -72
+      }
+    ]
+  },
+  {
+    "id": "resource-21",
+    "name": "Jocelyn",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -75
+      }
+    ]
+  },
+  {
+    "id": "resource-31",
+    "name": "Stella",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -91
+      }
+    ]
+  },
+  {
+    "id": "resource-41",
+    "name": "Terry",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -61
+      }
+    ]
+  },
+  {
+    "id": "resource-51",
+    "name": "Blanche",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -11
+      }
+    ]
+  },
+  {
+    "id": "resource-61",
+    "name": "Brady",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -27
+      }
+    ]
+  },
+  {
+    "id": "resource-71",
+    "name": "Rhea",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -61
+      }
+    ]
+  },
+  {
+    "id": "resource-81",
+    "name": "Horton",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -66
+      }
+    ]
+  },
+  {
+    "id": "resource-91",
+    "name": "Delia",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -32
+      }
+    ]
+  },
+  {
+    "id": "resource-101",
+    "name": "House",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -9
+      }
+    ]
+  },
+  {
+    "id": "resource-111",
+    "name": "Monroe",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -76
+      }
+    ]
+  },
+  {
+    "id": "resource-121",
+    "name": "Hicks",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -76
+      }
+    ]
+  },
+  {
+    "id": "resource-131",
+    "name": "Mayra",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -77
+      }
+    ]
+  },
+  {
+    "id": "resource-141",
+    "name": "Mcgowan",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -23
+      }
+    ]
+  },
+  {
+    "id": "resource-151",
+    "name": "Hooper",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -85
+      }
+    ]
+  },
+  {
+    "id": "resource-161",
+    "name": "Mendez",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -76
+      }
+    ]
+  },
+  {
+    "id": "resource-171",
+    "name": "Mcfarland",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -25
+      }
+    ]
+  },
+  {
+    "id": "resource-181",
+    "name": "Diaz",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -91
+      }
+    ]
+  },
+  {
+    "id": "resource-191",
+    "name": "Horne",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -44
+      }
+    ]
+  },
+  {
+    "id": "resource-201",
+    "name": "Ferrell",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -82
+      }
+    ]
+  },
+  {
+    "id": "resource-211",
+    "name": "Young",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -15
+      }
+    ]
+  },
+  {
+    "id": "resource-221",
+    "name": "Thelma",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -31
+      }
+    ]
+  },
+  {
+    "id": "resource-231",
+    "name": "Tara",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -72
+      }
+    ]
+  },
+  {
+    "id": "resource-241",
+    "name": "Jillian",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -38
+      }
+    ]
+  },
+  {
+    "id": "resource-251",
+    "name": "Jerri",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -42
+      }
+    ]
+  },
+  {
+    "id": "resource-261",
+    "name": "Kristen",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -53
+      }
+    ]
+  },
+  {
+    "id": "resource-271",
+    "name": "Brandie",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -24
+      }
+    ]
+  },
+  {
+    "id": "resource-281",
+    "name": "Pugh",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -27
+      }
+    ]
+  },
+  {
+    "id": "resource-291",
+    "name": "Phelps",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -18
+      }
+    ]
+  },
+  {
+    "id": "resource-301",
+    "name": "Yates",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -99
+      }
+    ]
+  },
+  {
+    "id": "resource-311",
+    "name": "Shelley",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -88
+      }
+    ]
+  },
+  {
+    "id": "resource-321",
+    "name": "Hebert",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -95
+      }
+    ]
+  },
+  {
+    "id": "resource-331",
+    "name": "Mckay",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -72
+      }
+    ]
+  },
+  {
+    "id": "resource-341",
+    "name": "Bailey",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -7
+      }
+    ]
+  },
+  {
+    "id": "resource-351",
+    "name": "Ochoa",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -77
+      }
+    ]
+  },
+  {
+    "id": "resource-361",
+    "name": "Eddie",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -1
+      }
+    ]
+  },
+  {
+    "id": "resource-371",
+    "name": "Lakeisha",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -86
+      }
+    ]
+  },
+  {
+    "id": "resource-381",
+    "name": "Norma",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -53
+      }
+    ]
+  },
+  {
+    "id": "resource-391",
+    "name": "Tabatha",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -54
+      }
+    ]
+  },
+  {
+    "id": "resource-401",
+    "name": "Weiss",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -56
+      }
+    ]
+  },
+  {
+    "id": "resource-411",
+    "name": "Ortiz",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -34
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -54
+      }
+    ]
+  },
+  {
+    "id": "resource-421",
+    "name": "Ava",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -12
+      }
+    ]
+  },
+  {
+    "id": "resource-431",
+    "name": "Danielle",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -29
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -86
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -98
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -50
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -70
+      }
+    ]
+  },
+  {
+    "id": "resource-441",
+    "name": "Georgette",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -74
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -33
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -28
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -6
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -4
+      }
+    ]
+  },
+  {
+    "id": "resource-451",
+    "name": "Melisa",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -5
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -83
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -87
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -65
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -93
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -66
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -16
+      }
+    ]
+  },
+  {
+    "id": "resource-461",
+    "name": "Harper",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -13
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -95
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -67
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -62
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -46
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -56
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -52
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -21
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -49
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -42
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -65
+      }
+    ]
+  },
+  {
+    "id": "resource-471",
+    "name": "Alyce",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -40
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -25
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -38
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -44
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -17
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -58
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -7
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -35
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -99
+      }
+    ]
+  },
+  {
+    "id": "resource-481",
+    "name": "Frye",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -43
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -19
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -69
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -71
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -26
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -27
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -53
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -9
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -24
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -64
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -36
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -14
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -63
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -77
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -31
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -22
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -12
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -2
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -72
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -23
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -94
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -79
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -15
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -3
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -8
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -20
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -25
+      }
+    ]
+  },
+  {
+    "id": "resource-491",
+    "name": "Celeste",
+    "rrs": [
+      {
+        "rrId": "rr-01",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-11",
+        "weight": -18
+      },
+      {
+        "rrId": "rr-21",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-31",
+        "weight": -85
+      },
+      {
+        "rrId": "rr-41",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-51",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-61",
+        "weight": -73
+      },
+      {
+        "rrId": "rr-71",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-81",
+        "weight": -4
+      },
+      {
+        "rrId": "rr-91",
+        "weight": -37
+      },
+      {
+        "rrId": "rr-101",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-111",
+        "weight": -11
+      },
+      {
+        "rrId": "rr-121",
+        "weight": -70
+      },
+      {
+        "rrId": "rr-131",
+        "weight": -61
+      },
+      {
+        "rrId": "rr-141",
+        "weight": -30
+      },
+      {
+        "rrId": "rr-151",
+        "weight": -60
+      },
+      {
+        "rrId": "rr-161",
+        "weight": -39
+      },
+      {
+        "rrId": "rr-171",
+        "weight": -55
+      },
+      {
+        "rrId": "rr-181",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-191",
+        "weight": -96
+      },
+      {
+        "rrId": "rr-201",
+        "weight": -48
+      },
+      {
+        "rrId": "rr-211",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-221",
+        "weight": -45
+      },
+      {
+        "rrId": "rr-231",
+        "weight": -75
+      },
+      {
+        "rrId": "rr-241",
+        "weight": -78
+      },
+      {
+        "rrId": "rr-251",
+        "weight": -92
+      },
+      {
+        "rrId": "rr-261",
+        "weight": -10
+      },
+      {
+        "rrId": "rr-271",
+        "weight": -68
+      },
+      {
+        "rrId": "rr-281",
+        "weight": -47
+      },
+      {
+        "rrId": "rr-291",
+        "weight": -1
+      },
+      {
+        "rrId": "rr-301",
+        "weight": -99
+      },
+      {
+        "rrId": "rr-311",
+        "weight": -57
+      },
+      {
+        "rrId": "rr-321",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-331",
+        "weight": -41
+      },
+      {
+        "rrId": "rr-341",
+        "weight": -88
+      },
+      {
+        "rrId": "rr-351",
+        "weight": -51
+      },
+      {
+        "rrId": "rr-361",
+        "weight": -82
+      },
+      {
+        "rrId": "rr-371",
+        "weight": -97
+      },
+      {
+        "rrId": "rr-381",
+        "weight": -59
+      },
+      {
+        "rrId": "rr-391",
+        "weight": -80
+      },
+      {
+        "rrId": "rr-401",
+        "weight": -89
+      },
+      {
+        "rrId": "rr-411",
+        "weight": -81
+      },
+      {
+        "rrId": "rr-421",
+        "weight": -91
+      },
+      {
+        "rrId": "rr-431",
+        "weight": -16
+      },
+      {
+        "rrId": "rr-441",
+        "weight": -90
+      },
+      {
+        "rrId": "rr-451",
+        "weight": -32
+      },
+      {
+        "rrId": "rr-461",
+        "weight": -76
+      },
+      {
+        "rrId": "rr-471",
+        "weight": -54
+      },
+      {
+        "rrId": "rr-481",
+        "weight": -84
+      },
+      {
+        "rrId": "rr-491",
+        "weight": -71
+      }
+    ]
+  }
+]
