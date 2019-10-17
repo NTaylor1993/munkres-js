@@ -1,78 +1,5 @@
 (async function() {
-	let data = [
-  {
-	id: "resource-1",
-	name: "Alice",
-	rrs: [
-	  {
-		rrId: "rr1",
-		weight: -50
-	  },
-	  {
-		rrId: "rr2",
-		weight: -10
-	  },
-	  {
-		rrId: "rr3",
-		weight: -5
-	  }
-	]
-  },
-  {
-	id: "resource-2",
-	name: "Bob",
-	rrs: [
-	  {
-		rrId: "rr1",
-		weight: -11
-	  },
-	  {
-		rrId: "rr2",
-		weight: -20
-	  },
-	  {
-		rrId: "rr3",
-		weight: -5
-	  }
-	]
-  },
-  {
-	id: "resource-3",
-	name: "Charlie",
-	rrs: [
-	  {
-		rrId: "rr1",
-		weight: -50
-	  },
-	  {
-		rrId: "rr2",
-		weight: -30
-	  },
-	  {
-		rrId: "rr3",
-		weight: -5
-	  }
-	]
-  },
-  {
-	id: "resource-4",
-	name: "Danielle",
-	rrs: [
-	  {
-		rrId: "rr1",
-		weight: -5
-	  },
-	  {
-		rrId: "rr2",
-		weight: 0
-	  },
-	  {
-		rrId: "rr3",
-		weight: -5
-	  }
-	]
-  }
-];
+	const threshold = -10;
 
 document.addEventListener("DOMContentLoaded", function() {
   fetch(new Request('rrs.json')).then((response) => {
@@ -107,6 +34,19 @@ function preFilterByThreshold() {
 	  removeResourceRequest(i);
 	}
   }
+}
+
+function postFilterByThreshold(matrix, indices) {
+	for (let i=0; i <= data[0].rrs.length - 1; i++) {
+		if (matrix[indices[i][0]][indices[i][1]] > threshold && data[0].rrs[i].rrId != 'Dummy') {
+			console.log(data[0].rrs);
+			console.log(indices[i]);
+			console.log(i);
+			data.forEach(resource => {
+				resource.rrs.splice(indices[i][0], 1);
+			})
+		}
+	}
 }
 
 function removeResourceRequest(idx) {

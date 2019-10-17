@@ -4,7 +4,6 @@
 		<title>Resource Request Allocation</title>
 		<script src="munkres.js" type="text/javascript"></script>
 		<script type="text/javascript">/*<![CDATA[*/
-			const threshold = -10;
 			const data = [
 					{
 						id: 'resource-1',
@@ -104,19 +103,6 @@
 
 					if (maxWeight > threshold) {
 						removeResourceRequest(i);
-					}
-				}
-			}
-
-			function postFilterByThreshold(matrix, indices) {
-				for (let i=0; i <= data[0].rrs.length - 1; i++) {
-					if (matrix[indices[i][0]][indices[i][1]] > threshold && data[0].rrs[i].rrId != 'Dummy') {
-						console.log(data[0].rrs);
-						console.log(indices[i]);
-						console.log(i);
-						data.forEach(resource => {
-							resource.rrs.splice(indices[i][0], 1);
-						})
 					}
 				}
 			}
