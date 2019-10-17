@@ -190,6 +190,8 @@
 		highlightSolution(matrix, indices);
 		postFilterByThreshold(matrix, indices);
 		highlightSolution(matrix, indices);
+
+		outputIndicesList(indices);
 	}
 
 	function highlightSolution(matrix, indices) {
@@ -230,5 +232,20 @@
 				return ["[", ind.join(","), "]"].join("");
 			})
 			.join(", ");
+	}
+
+	function outputIndicesList(indices) {
+		assignmentList = docuement.createElement('ul');
+		
+		indices.forEach(index => {
+			listItem = document.createElement('li');
+			listItem.value = index[0] + " - " + index[1];
+
+			assignmentList.appendChild(listItem);
+		})
+
+		const container = document.getElementById('assignment-list');
+		container.appendChild(assignmentList);
+
 	}
 })();
