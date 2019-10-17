@@ -1,7 +1,7 @@
 (async function () {
 	const threshold = -10,
-		jsonFile = "rrs.json";
-	//   jsonFile = "rrs_1000_300.json";
+		// jsonFile = "rrs.json";
+	  	jsonFile = "rrs_50x20.json";
 
 	let currentTableId;
 
@@ -12,7 +12,6 @@
 			})
 			.then(json => {
 				data = json;
-				buildTable("pre-filter");
 				preFilterByThreshold();
 				buildTable("resource-table");
 			});
@@ -75,13 +74,13 @@
 				data.forEach(resource => {
 					resource.rrs.splice(indices[i][0], 1);
 				});
-				
+
 			}
 		}
 
 
 		if (refresh) {
-					buildTable("post-filter-table");
+			buildTable("post-filter-table");
 
 		}
 
@@ -205,7 +204,7 @@
 				j = indices[k][1];
 			totalCost += matrix[i][j];
 
-			document.querySelector(`#${currentTableId} td[matrix-id=tab-${i}-${j}]`).className="active";
+			document.querySelector(`#${currentTableId} td[matrix-id=tab-${i}-${j}]`).className = "active";
 		}
 
 		document.getElementById("total-cost").value = totalCost;
@@ -217,7 +216,7 @@
 
 		for (var i = 0; i < N; ++i) {
 			for (var j = 0; j < N; ++j) {
-				document.querySelector(`#${currentTableId} td[matrix-id=tab-${i}-${j}]`).className="";
+				document.querySelector(`#${currentTableId} td[matrix-id=tab-${i}-${j}]`).className = "";
 			}
 		}
 	}
@@ -236,12 +235,19 @@
 
 	function outputIndicesList(indices) {
 		assignmentList = document.createElement('ul');
-		
-		indices.forEach(index => {
-			listItem = document.createElement('li');
-			listItem.value = index[0] + " - " + index[1];
 
-			assignmentList.appendChild(listItem);
+		indices.forEach(index => {
+			if (data[index[0]].name !== 'Dummy' && data[index[0]].rrs[index[1]].rrId !== 'Dummy') {
+				listItem = document.createElement('li');
+				listItem.value = 200;
+				// listItem.value = index[0] + " - " + index[1];
+
+				valueItem = document.createElement('input');
+				valueItem.value = data[index[0]].name + " - " + data[index[0]].rrs[index[1]].rrId;
+
+				listItem.appendChild(valueItem);
+				assignmentList.appendChild(listItem);
+			}
 		})
 
 		const container = document.getElementById('assignment-list');

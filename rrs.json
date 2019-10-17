@@ -75,7 +75,7 @@
       },
       {
         "rrId": "rr2",
-        "weight": 0
+        "weight": -10
       },
       {
         "rrId": "rr3",
@@ -97,7 +97,7 @@
       },
       {
         "rrId": "rr2",
-        "weight": 0
+        "weight": -5
       },
       {
         "rrId": "rr3",
@@ -119,7 +119,7 @@
       },
       {
         "rrId": "rr2",
-        "weight": 0
+        "weight": -3
       },
       {
         "rrId": "rr3",
@@ -141,7 +141,7 @@
       },
       {
         "rrId": "rr2",
-        "weight": 0
+        "weight": -9
       },
       {
         "rrId": "rr3",
