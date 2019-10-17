@@ -3,6 +3,8 @@
 		jsonFile = "rrs.json";
 	//   jsonFile = "rrs_1000_300.json";
 
+	let currentTableId;
+
 	document.addEventListener("DOMContentLoaded", function () {
 		fetch(new Request(jsonFile))
 			.then(response => {
@@ -16,8 +18,11 @@
 			});
 	});
 
+
 	function buildTable(id) {
 		let table = document.getElementById(id);
+
+		currentTableId = id;
 
 		if (!table) {
 			const container = document.getElementById('table-data');
@@ -36,6 +41,7 @@
 		createResourceRequestRow(table);
 		createResourceRows(table);
 		update();
+
 	}
 
 	function preFilterByThreshold() {
@@ -58,16 +64,25 @@
 	}
 
 	function postFilterByThreshold(matrix, indices) {
+		let refresh = false;
+
 		for (let i = 0; i <= data[0].rrs.length - 1; i++) {
 			if (
 				matrix[indices[i][0]][indices[i][1]] > threshold &&
 				data[0].rrs[i].rrId != "Dummy"
 			) {
+				refresh = true;
 				data.forEach(resource => {
 					resource.rrs.splice(indices[i][0], 1);
 				});
-				buildTable("post-filter-table");
+				
 			}
+		}
+
+
+		if (refresh) {
+					buildTable("post-filter-table");
+
 		}
 
 
@@ -138,8 +153,6 @@
 				const td = document.createElement("td");
 				const input = document.createElement("input");
 
-				td.setAttribute("id", "tab-" + rrIdx + "-" + idx);
-
 				td.setAttribute("matrix-id", "tab-" + rrIdx + "-" + idx);
 
 				input.setAttribute("type", "text");
@@ -163,7 +176,7 @@
 			for (var j = 0; j < N; ++j) {
 				matrix[i][j] =
 					parseInt(
-						document.getElementById("tab-" + i + "-" + j).children[0].value
+						document.querySelector(`#${currentTableId} td[matrix-id=tab-${i}-${j}]`).children[0].value
 					) || 0;
 			}
 		}
@@ -174,7 +187,7 @@
 	function update() {
 		const matrix = getMatrix();
 		const indices = solve(matrix);
-
+		highlightSolution(matrix, indices);
 		postFilterByThreshold(matrix, indices);
 		highlightSolution(matrix, indices);
 	}
@@ -182,12 +195,15 @@
 	function highlightSolution(matrix, indices) {
 		let totalCost = 0;
 
+		console.log("highlighing", currentTableId);
+
 		removeClass();
 		for (var k = 0; k < indices.length; ++k) {
 			var i = indices[k][0],
 				j = indices[k][1];
 			totalCost += matrix[i][j];
-			document.getElementById("tab-" + i + "-" + j).className = "active";
+
+			document.querySelector(`#${currentTableId} td[matrix-id=tab-${i}-${j}]`).className="active";
 		}
 
 		document.getElementById("total-cost").value = totalCost;
@@ -199,7 +215,7 @@
 
 		for (var i = 0; i < N; ++i) {
 			for (var j = 0; j < N; ++j) {
-				document.getElementById("tab-" + i + "-" + j).className = "";
+				document.querySelector(`#${currentTableId} td[matrix-id=tab-${i}-${j}]`).className="";
 			}
 		}
 	}
