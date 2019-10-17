@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Resource Request Allocation</title>
+		<script src="munkres.js"></script>
+		<script src="rrs.js"></script>
+
+		<style>/*<![CDATA[*/
+		.active {
+			background-color: #e77;
+		}
+		#indices {
+			min-width:15em;
+		}
+		/*]]>*/</style>
+	</head>
+	<body>
+		<h1>Resource Allocation Using Hungarian Method</h1>
+		<p>
+			Total Cost: <input disabled id="total-cost" />
+		</p>
+		<p>
+			Indices: <input disabled id="indices" />
+		</p>
+		<table id="resource-table"></table>
+	</body>
+</html>

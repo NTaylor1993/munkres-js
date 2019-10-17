@@ -1,0 +1,249 @@
+(async function() {
+	let data = [
+  {
+	id: "resource-1",
+	name: "Alice",
+	rrs: [
+	  {
+		rrId: "rr1",
+		weight: -50
+	  },
+	  {
+		rrId: "rr2",
+		weight: -10
+	  },
+	  {
+		rrId: "rr3",
+		weight: -5
+	  }
+	]
+  },
+  {
+	id: "resource-2",
+	name: "Bob",
+	rrs: [
+	  {
+		rrId: "rr1",
+		weight: -11
+	  },
+	  {
+		rrId: "rr2",
+		weight: -20
+	  },
+	  {
+		rrId: "rr3",
+		weight: -5
+	  }
+	]
+  },
+  {
+	id: "resource-3",
+	name: "Charlie",
+	rrs: [
+	  {
+		rrId: "rr1",
+		weight: -50
+	  },
+	  {
+		rrId: "rr2",
+		weight: -30
+	  },
+	  {
+		rrId: "rr3",
+		weight: -5
+	  }
+	]
+  },
+  {
+	id: "resource-4",
+	name: "Danielle",
+	rrs: [
+	  {
+		rrId: "rr1",
+		weight: -5
+	  },
+	  {
+		rrId: "rr2",
+		weight: 0
+	  },
+	  {
+		rrId: "rr3",
+		weight: -5
+	  }
+	]
+  }
+];
+
+document.addEventListener("DOMContentLoaded", function() {
+  fetch(new Request('rrs.json')).then((response) => {
+	return response.json();
+  }).then((json) => {
+	const table = document.getElementById("resource-table");
+
+	data = json;
+	preFilterByThreshold();
+	makeSquare();
+	createResourceRequestRow(table);
+	createResourceRows(table);
+	update();
+  });
+
+});
+
+function preFilterByThreshold() {
+  const threshold = -10,
+	numberOfRRs = getResourceRequests().length;
+
+  for (let i = 0; i < numberOfRRs; i++) {
+	let maxWeight = 0;
+	data.forEach(resource => {
+	  const weight = resource.rrs[i].weight;
+	  if (weight < maxWeight) {
+		maxWeight = weight;
+	  }
+	});
+
+	if (maxWeight > threshold) {
+	  removeResourceRequest(i);
+	}
+  }
+}
+
+function removeResourceRequest(idx) {
+  console.log("Remove rr", idx);
+  getResources().forEach(resource => {
+	resource.rrs.splice(idx, 1);
+  });
+}
+
+function makeSquare() {
+  let numberOfResources = getResources().length,
+	numberOfRRs = getResourceRequests().length;
+
+  for (; numberOfResources < numberOfRRs; numberOfResources++) {
+	createDummyResource();
+  }
+
+  for (; numberOfResources > numberOfRRs; numberOfRRs++) {
+	createDummyRR();
+  }
+}
+
+function createDummyResource() {
+  data.push({ name: "Dummy" });
+}
+
+function createDummyRR() {
+  data.forEach(resource => {
+	resource.rrs.push({ rrId: "Dummy", weight: 0 });
+  });
+}
+
+function createResourceRequestRow(table) {
+  const tr = document.createElement("tr"),
+	td = document.createElement("td");
+
+  tr.appendChild(td);
+
+  getResourceRequests().forEach(rr => {
+	const td = document.createElement("td");
+
+	td.innerText = rr.rrId;
+	tr.appendChild(td);
+  });
+
+  table.appendChild(tr);
+}
+
+function getResourceRequests() {
+  return data[0].rrs;
+}
+
+function getResources() {
+  return data;
+}
+
+function createResourceRows(table) {
+  getResources().forEach((resource, idx) => {
+	const tr = document.createElement("tr"),
+	  td = document.createElement("td");
+
+	td.innerText = resource.name;
+	tr.appendChild(td);
+
+	resource.rrs.forEach((rr, rrIdx) => {
+	  const td = document.createElement("td");
+	  const input = document.createElement("input");
+
+	  td.setAttribute("id", "tab-" + rrIdx + "-" + idx);
+	  input.setAttribute("type", "text");
+	  input.addEventListener("change", update);
+	  input.value = rr.weight;
+	  td.appendChild(input);
+	  tr.appendChild(td);
+	});
+
+	table.appendChild(tr);
+  });
+}
+
+function getMatrix() {
+  var matrix = [],
+	N = getResources().length;
+
+  for (var i = 0; i < N; ++i) {
+	matrix[i] = [];
+	for (var j = 0; j < N; ++j) {
+	  matrix[i][j] =
+		parseInt(
+		  document.getElementById("tab-" + i + "-" + j).children[0].value
+		) || 0;
+	}
+  }
+
+  return matrix;
+}
+
+function update() {
+  const matrix = getMatrix();
+
+  highlightSolution(matrix, solve(matrix));
+}
+
+function highlightSolution(matrix, indices) {
+  let totalCost = 0;
+
+  removeClass();
+  for (var k = 0; k < indices.length; ++k) {
+	var i = indices[k][0],
+	  j = indices[k][1];
+	totalCost += matrix[i][j];
+	document.getElementById("tab-" + i + "-" + j).className = "active";
+  }
+
+  document.getElementById("total-cost").value = totalCost;
+  document.getElementById("indices").value = formatIndicesAsString(indices);
+}
+
+function removeClass() {
+  const N = getResources().length;
+
+  for (var i = 0; i < N; ++i) {
+	for (var j = 0; j < N; ++j) {
+	  document.getElementById("tab-" + i + "-" + j).className = "";
+	}
+  }
+}
+
+function solve(matrix) {
+  return new Munkres().compute(matrix);
+}
+
+function formatIndicesAsString(indices) {
+  return indices
+	.map(ind => {
+	  return ["[", ind.join(","), "]"].join("");
+	})
+	.join(", ");
+}
+})();
