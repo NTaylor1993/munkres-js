@@ -107,7 +107,7 @@
 	}
 
 	function createDummyResource() {
-		data.push({ name: "Dummy" });
+		data.push({ id: "Dummy" });
 	}
 
 	function createDummyRR() {
@@ -145,7 +145,7 @@
 			const tr = document.createElement("tr"),
 				td = document.createElement("td");
 
-			td.innerText = resource.name;
+			td.innerText = resource.id;
 			tr.appendChild(td);
 
 			resource.rrs.forEach((rr, rrIdx) => {
@@ -237,7 +237,7 @@
 		assignmentList = document.createElement('ul');
 
 		indices.forEach(index => {
-			let resourceName = data[index[1]].name;
+			let resourceName = data[index[1]].id;
 			let resourceRequestId = data[index[1]].rrs[index[0]].rrId;
 
 			if (resourceName !== 'Dummy' && resourceRequestId !== 'Dummy') {
